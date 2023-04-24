@@ -232,7 +232,11 @@ static void plic_handle_irq(struct irq_desc *desc)
 
 	chained_irq_enter(chip, desc);
 
-	while ((hwirq = readl(claim))) {
+    //if ((claim & 0xffff) == 0x2000) {
+    //    pr_info("Host claim virt: 0x%lx phys: 0x%lx", claim, virt_to_phys(claim));
+    //}
+
+    while ((hwirq = readl(claim))) {
 		int irq = irq_find_mapping(handler->priv->irqdomain, hwirq);
 
 		if (unlikely(irq <= 0))
@@ -272,6 +276,9 @@ static int plic_starting_cpu(unsigned int cpu)
 
 	return 0;
 }
+#define VINTERRUPTS_OFFSET  0x1f00000
+void *vinterrupts_mmio = NULL;
+EXPORT_SYMBOL(vinterrupts_mmio);
 
 static int __init plic_init(struct device_node *node,
 		struct device_node *parent)
@@ -290,6 +297,8 @@ static int __init plic_init(struct device_node *node,
 		error = -EIO;
 		goto out_free_priv;
 	}
+
+    vinterrupts_mmio = priv->regs + VINTERRUPTS_OFFSET;
 
 	error = -EINVAL;
 	of_property_read_u32(node, "riscv,ndev", &nr_irqs);

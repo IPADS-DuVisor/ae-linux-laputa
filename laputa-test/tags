@@ -1,0 +1,357 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BATCH_SIZE	pcap.c	/^const int BATCH_SIZE = 32;$/;"	v
+BATCH_SIZE	pktgen.c	/^static const uint32_t BATCH_SIZE = 64;$/;"	v	file:
+BEGIN_FUNC	asm.h	15;"	d
+BEGIN_FUNC_STATIC	asm.h	27;"	d
+CC	Makefile	/^CC=$(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall -g -Wconversion -Wextra -static -Wno-sign-conversion$/;"	m
+CONFIG_64BIT	mmio.h	17;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE=riscv64-linux-gnu-$/;"	m
+DATA	asm.h	35;"	d
+END	asm.h	62;"	d
+END_DATA	asm.h	36;"	d
+END_FUNC	asm.h	20;"	d
+END_FUNC_STATIC	asm.h	31;"	d
+EXPORT	asm.h	23;"	d
+EXPORT	asm.h	66;"	d
+FEXPORT	asm.h	70;"	d
+HUGE_PAGE_BITS	memory.h	10;"	d
+HUGE_PAGE_SIZE	memory.h	11;"	d
+IOCTL_DRIVER_NAME	ioctl_test.c	18;"	d	file:
+IXY_LOG_H	log.h	2;"	d
+IXY_MEMORY_H	memory.h	2;"	d
+IXY_STATS_H	stats.h	2;"	d
+LEAF	asm.h	41;"	d
+LOCAL_DATA	asm.h	34;"	d
+NESTED	asm.h	51;"	d
+PAGE_SHIFT	virtio_type.h	46;"	d
+PATH_MAX	ioctl_test.c	50;"	d	file:
+PKT_SIZE	pktgen.c	5;"	d	file:
+RTE_ALIGN_CEIL	virtio_type.h	42;"	d
+RTE_ALIGN_FLOOR	virtio_type.h	41;"	d
+RTE_PTR_ADD	virtio_type.h	40;"	d
+RTE_PTR_ALIGN_CEIL	virtio_type.h	44;"	d
+RTE_PTR_ALIGN_FLOOR	virtio_type.h	43;"	d
+SIZE_PKT_BUF_HEADROOM	memory.h	12;"	d
+VIRTIO_CONFIG_S_ACKNOWLEDGE	virtio_type.h	65;"	d
+VIRTIO_CONFIG_S_DRIVER	virtio_type.h	67;"	d
+VIRTIO_CONFIG_S_DRIVER_OK	virtio_type.h	69;"	d
+VIRTIO_CONFIG_S_FAILED	virtio_type.h	75;"	d
+VIRTIO_CONFIG_S_FEATURES_OK	virtio_type.h	71;"	d
+VIRTIO_CONFIG_S_NEEDS_RESET	virtio_type.h	73;"	d
+VIRTIO_F_ANY_LAYOUT	virtio_type.h	128;"	d
+VIRTIO_F_IOMMU_PLATFORM	virtio_type.h	134;"	d
+VIRTIO_F_NOTIFY_ON_EMPTY	virtio_type.h	125;"	d
+VIRTIO_F_VERSION_1	virtio_type.h	133;"	d
+VIRTIO_MAX_CTRL_DATA	virtio_type.h	161;"	d
+VIRTIO_MMIO_CONFIG	virtio_mmio.h	141;"	d
+VIRTIO_MMIO_CONFIG_GENERATION	virtio_mmio.h	137;"	d
+VIRTIO_MMIO_DEVICE_FEATURES	virtio_mmio.h	56;"	d
+VIRTIO_MMIO_DEVICE_FEATURES_SEL	virtio_mmio.h	59;"	d
+VIRTIO_MMIO_DEVICE_ID	virtio_mmio.h	49;"	d
+VIRTIO_MMIO_DRIVER_FEATURES	virtio_mmio.h	63;"	d
+VIRTIO_MMIO_DRIVER_FEATURES_SEL	virtio_mmio.h	66;"	d
+VIRTIO_MMIO_GUEST_PAGE_SIZE	virtio_mmio.h	72;"	d
+VIRTIO_MMIO_INTERRUPT_ACK	virtio_mmio.h	108;"	d
+VIRTIO_MMIO_INTERRUPT_STATUS	virtio_mmio.h	105;"	d
+VIRTIO_MMIO_INT_CONFIG	virtio_mmio.h	150;"	d
+VIRTIO_MMIO_INT_VRING	virtio_mmio.h	149;"	d
+VIRTIO_MMIO_MAGIC_VALUE	virtio_mmio.h	43;"	d
+VIRTIO_MMIO_QUEUE_ALIGN	virtio_mmio.h	90;"	d
+VIRTIO_MMIO_QUEUE_AVAIL_HIGH	virtio_mmio.h	119;"	d
+VIRTIO_MMIO_QUEUE_AVAIL_LOW	virtio_mmio.h	118;"	d
+VIRTIO_MMIO_QUEUE_DESC_HIGH	virtio_mmio.h	115;"	d
+VIRTIO_MMIO_QUEUE_DESC_LOW	virtio_mmio.h	114;"	d
+VIRTIO_MMIO_QUEUE_NOTIFY	virtio_mmio.h	102;"	d
+VIRTIO_MMIO_QUEUE_NUM	virtio_mmio.h	84;"	d
+VIRTIO_MMIO_QUEUE_NUM_MAX	virtio_mmio.h	81;"	d
+VIRTIO_MMIO_QUEUE_PFN	virtio_mmio.h	93;"	d
+VIRTIO_MMIO_QUEUE_READY	virtio_mmio.h	99;"	d
+VIRTIO_MMIO_QUEUE_SEL	virtio_mmio.h	78;"	d
+VIRTIO_MMIO_QUEUE_USED_HIGH	virtio_mmio.h	123;"	d
+VIRTIO_MMIO_QUEUE_USED_LOW	virtio_mmio.h	122;"	d
+VIRTIO_MMIO_SHM_BASE_HIGH	virtio_mmio.h	134;"	d
+VIRTIO_MMIO_SHM_BASE_LOW	virtio_mmio.h	133;"	d
+VIRTIO_MMIO_SHM_LEN_HIGH	virtio_mmio.h	130;"	d
+VIRTIO_MMIO_SHM_LEN_LOW	virtio_mmio.h	129;"	d
+VIRTIO_MMIO_SHM_SEL	virtio_mmio.h	126;"	d
+VIRTIO_MMIO_STATUS	virtio_mmio.h	111;"	d
+VIRTIO_MMIO_VENDOR_ID	virtio_mmio.h	52;"	d
+VIRTIO_MMIO_VERSION	virtio_mmio.h	46;"	d
+VIRTIO_MSI_CONFIG_VECTOR	virtio_type.h	60;"	d
+VIRTIO_MSI_QUEUE_VECTOR	virtio_type.h	61;"	d
+VIRTIO_NET_CTRL_RX	virtio_type.h	143;"	d
+VIRTIO_NET_CTRL_RX_ALLMULTI	virtio_type.h	145;"	d
+VIRTIO_NET_CTRL_RX_ALLUNI	virtio_type.h	146;"	d
+VIRTIO_NET_CTRL_RX_NOBCAST	virtio_type.h	149;"	d
+VIRTIO_NET_CTRL_RX_NOMULTI	virtio_type.h	147;"	d
+VIRTIO_NET_CTRL_RX_NOUNI	virtio_type.h	148;"	d
+VIRTIO_NET_CTRL_RX_PROMISC	virtio_type.h	144;"	d
+VIRTIO_NET_ERR	virtio_type.h	159;"	d
+VIRTIO_NET_F_CSUM	virtio_type.h	91;"	d
+VIRTIO_NET_F_CTRL_GUEST_OFFLOADS	virtio_type.h	93;"	d
+VIRTIO_NET_F_CTRL_MAC_ADDR	virtio_type.h	114;"	d
+VIRTIO_NET_F_CTRL_RX	virtio_type.h	107;"	d
+VIRTIO_NET_F_CTRL_RX_EXTRA	virtio_type.h	109;"	d
+VIRTIO_NET_F_CTRL_VLAN	virtio_type.h	108;"	d
+VIRTIO_NET_F_CTRL_VQ	virtio_type.h	106;"	d
+VIRTIO_NET_F_GUEST_ANNOUNCE	virtio_type.h	110;"	d
+VIRTIO_NET_F_GUEST_CSUM	virtio_type.h	92;"	d
+VIRTIO_NET_F_GUEST_ECN	virtio_type.h	98;"	d
+VIRTIO_NET_F_GUEST_TSO4	virtio_type.h	96;"	d
+VIRTIO_NET_F_GUEST_TSO6	virtio_type.h	97;"	d
+VIRTIO_NET_F_GUEST_UFO	virtio_type.h	99;"	d
+VIRTIO_NET_F_HASH_REPORT	virtio_type.h	116;"	d
+VIRTIO_NET_F_HOST_ECN	virtio_type.h	102;"	d
+VIRTIO_NET_F_HOST_TSO4	virtio_type.h	100;"	d
+VIRTIO_NET_F_HOST_TSO6	virtio_type.h	101;"	d
+VIRTIO_NET_F_HOST_UFO	virtio_type.h	103;"	d
+VIRTIO_NET_F_MAC	virtio_type.h	95;"	d
+VIRTIO_NET_F_MQ	virtio_type.h	112;"	d
+VIRTIO_NET_F_MRG_RXBUF	virtio_type.h	104;"	d
+VIRTIO_NET_F_MTU	virtio_type.h	94;"	d
+VIRTIO_NET_F_RSC_EXT	virtio_type.h	118;"	d
+VIRTIO_NET_F_RSS	virtio_type.h	117;"	d
+VIRTIO_NET_F_SPEED_DUPLEX	virtio_type.h	122;"	d
+VIRTIO_NET_F_STANDBY	virtio_type.h	119;"	d
+VIRTIO_NET_F_STATUS	virtio_type.h	105;"	d
+VIRTIO_NET_HDR_F_DATA_VALID	virtio_type.h	175;"	d
+VIRTIO_NET_HDR_F_NEEDS_CSUM	virtio_type.h	174;"	d
+VIRTIO_NET_HDR_GSO_ECN	virtio_type.h	181;"	d
+VIRTIO_NET_HDR_GSO_NONE	virtio_type.h	177;"	d
+VIRTIO_NET_HDR_GSO_TCPV4	virtio_type.h	178;"	d
+VIRTIO_NET_HDR_GSO_TCPV6	virtio_type.h	180;"	d
+VIRTIO_NET_HDR_GSO_UDP	virtio_type.h	179;"	d
+VIRTIO_NET_OK	virtio_type.h	158;"	d
+VIRTIO_PCI_GUEST_FEATURES	virtio_type.h	52;"	d
+VIRTIO_PCI_HOST_FEATURES	virtio_type.h	51;"	d
+VIRTIO_PCI_ISR	virtio_type.h	58;"	d
+VIRTIO_PCI_QUEUE_ADDR_SHIFT	virtio_type.h	81;"	d
+VIRTIO_PCI_QUEUE_NOTIFY	virtio_type.h	56;"	d
+VIRTIO_PCI_QUEUE_NUM	virtio_type.h	54;"	d
+VIRTIO_PCI_QUEUE_PFN	virtio_type.h	53;"	d
+VIRTIO_PCI_QUEUE_SEL	virtio_type.h	55;"	d
+VIRTIO_PCI_STATUS	virtio_type.h	57;"	d
+VIRTIO_RING_F_INDIRECT_DESC	virtio_type.h	131;"	d
+VRING_AVAIL_F_NO_INTERRUPT	virtio_type.h	204;"	d
+VRING_DESC_F_INDIRECT	virtio_type.h	195;"	d
+VRING_DESC_F_INDIRECT	virtio_type.h	88;"	d
+VRING_DESC_F_NEXT	virtio_type.h	191;"	d
+VRING_DESC_F_NEXT	virtio_type.h	84;"	d
+VRING_DESC_F_WRITE	virtio_type.h	193;"	d
+VRING_DESC_F_WRITE	virtio_type.h	86;"	d
+VRING_USED_F_NO_NOTIFY	virtio_type.h	200;"	d
+_ASM_RISCV_MMIO_H	mmio.h	12;"	d
+_GNU_SOURCE	ioctl_test.c	1;"	d	file:
+_LINUX_VIRTIO_MMIO_H	virtio_mmio.h	36;"	d
+_VIRTIO_RING_H_	virtio_type.h	35;"	d
+__force	mmio.h	25;"	d
+__io_ar	mmio.h	150;"	d
+__io_aw	mmio.h	153;"	d
+__io_br	mmio.h	149;"	d
+__io_bw	mmio.h	151;"	d
+__io_rar	mmio.h	126;"	d
+__io_raw	mmio.h	128;"	d
+__io_rbr	mmio.h	125;"	d
+__io_rbw	mmio.h	127;"	d
+__iomem	mmio.h	24;"	d
+__raw_readb	mmio.h	/^static inline u8 __raw_readb(const volatile void __iomem *addr)$/;"	f
+__raw_readb	mmio.h	60;"	d
+__raw_readl	mmio.h	/^static inline u32 __raw_readl(const volatile void __iomem *addr)$/;"	f
+__raw_readl	mmio.h	78;"	d
+__raw_readq	mmio.h	/^static inline u64 __raw_readq(const volatile void __iomem *addr)$/;"	f
+__raw_readq	mmio.h	88;"	d
+__raw_readw	mmio.h	/^static inline u16 __raw_readw(const volatile void __iomem *addr)$/;"	f
+__raw_readw	mmio.h	69;"	d
+__raw_writeb	mmio.h	/^static inline void __raw_writeb(u8 val, volatile void __iomem *addr)$/;"	f
+__raw_writeb	mmio.h	34;"	d
+__raw_writel	mmio.h	/^static inline void __raw_writel(u32 val, volatile void __iomem *addr)$/;"	f
+__raw_writel	mmio.h	46;"	d
+__raw_writeq	mmio.h	/^static inline void __raw_writeq(u64 val, volatile void __iomem *addr)$/;"	f
+__raw_writeq	mmio.h	53;"	d
+__raw_writew	mmio.h	/^static inline void __raw_writew(u16 val, volatile void __iomem *addr)$/;"	f
+__raw_writew	mmio.h	40;"	d
+_mm_mfence	mmio.h	/^static inline void _mm_mfence(void) {$/;"	f
+addr	virtio_type.h	/^	uint64_t addr;  \/*  Address (guest-physical). *\/$/;"	m	struct:vring_desc
+assert	log.h	18;"	d
+assert	log.h	19;"	d
+avail	virtio_type.h	/^	struct vring_avail* avail;$/;"	m	struct:vring	typeref:struct:vring::vring_avail
+base_addr	memory.h	/^	void* base_addr;$/;"	m	struct:mempool
+buf_addr_phy	memory.h	/^	uintptr_t buf_addr_phy;$/;"	m	struct:pkt_buf
+buf_size	memory.h	/^	uint32_t buf_size;$/;"	m	struct:mempool
+buffer_count	virtio_type.h	/^    uint16_t buffer_count; \/**< Used when merging buffers. *\/$/;"	m	struct:virtio_legacy_net_hdr
+calc_ip_checksum	pktgen.c	/^static uint16_t calc_ip_checksum(uint8_t* data, uint32_t len) {$/;"	f	file:
+check_err	log.h	35;"	d
+close_driver	ioctl_test.c	/^void close_driver(const char* driver_name, int fd_driver) {$/;"	f
+cmd	virtio_type.h	/^	uint8_t cmd;$/;"	m	struct:virtio_net_ctrl_hdr
+cpu_to_le32	mmio.h	27;"	d
+csum_offset	virtio_type.h	/^	uint16_t csum_offset; \/**< Offset after that to place checksum *\/$/;"	m	struct:virtio_legacy_net_hdr
+csum_start	virtio_type.h	/^	uint16_t csum_start;  \/**< Position to start checksumming from *\/$/;"	m	struct:virtio_legacy_net_hdr
+ctrl_queue	virtio.c	/^    void* ctrl_queue;$/;"	m	struct:virtio_device	file:
+data	memory.h	/^	uint8_t data[] __attribute__((aligned(64)));$/;"	m	struct:pkt_buf
+data	virtio_type.h	/^	uint8_t data[VIRTIO_MAX_CTRL_DATA];$/;"	m	struct:virtio_pmd_ctrl
+debug	log.h	13;"	d
+debug	log.h	17;"	d
+desc	virtio_type.h	/^	struct vring_desc* desc;$/;"	m	struct:vring	typeref:struct:vring::vring_desc
+device	stats.h	/^	struct virtio_device* device;$/;"	m	struct:device_stats	typeref:struct:device_stats::virtio_device
+device_stats	stats.h	/^struct device_stats {$/;"	s
+diff_mbit	stats.c	/^static uint32_t diff_mbit(uint64_t bytes_new, uint64_t bytes_old, uint64_t pkts_new, uint64_t pkts_old, uint64_t nanos) {$/;"	f	file:
+diff_mpps	stats.c	/^static double diff_mpps(uint64_t pkts_new, uint64_t pkts_old, uint64_t nanos) {$/;"	f	file:
+dma_memory	memory.h	/^struct dma_memory {$/;"	s
+error	log.h	30;"	d
+flags	virtio_type.h	/^	uint16_t flags; \/* The flags as indicated above. *\/$/;"	m	struct:vring_desc
+flags	virtio_type.h	/^	uint16_t flags;$/;"	m	struct:vring_avail
+flags	virtio_type.h	/^	uint16_t flags;$/;"	m	struct:vring_used
+flags	virtio_type.h	/^	uint8_t flags;$/;"	m	struct:virtio_legacy_net_hdr
+free_stack	memory.h	/^	uint32_t free_stack[];$/;"	m	struct:mempool
+free_stack_top	memory.h	/^	uint32_t free_stack_top;$/;"	m	struct:mempool
+get_link_speed	virtio.c	/^    uint32_t (*get_link_speed) (const struct virtio_device *dev);$/;"	m	struct:virtio_device	file:
+gso_size	virtio_type.h	/^	uint16_t gso_size;    \/**< Bytes to append to hdr_len per frame *\/$/;"	m	struct:virtio_legacy_net_hdr
+gso_type	virtio_type.h	/^	uint8_t gso_type;$/;"	m	struct:virtio_legacy_net_hdr
+hdr	virtio_type.h	/^	struct virtio_net_ctrl_hdr hdr;$/;"	m	struct:virtio_pmd_ctrl	typeref:struct:virtio_pmd_ctrl::virtio_net_ctrl_hdr
+hdr_len	virtio_type.h	/^	uint16_t hdr_len;     \/**< Ethernet + IP + tcp\/udp hdrs *\/$/;"	m	struct:virtio_legacy_net_hdr
+head_room	memory.h	/^	uint8_t head_room[SIZE_PKT_BUF_HEADROOM];$/;"	m	struct:pkt_buf
+hexdump	log.h	/^static void hexdump(void* void_ptr, size_t len) {$/;"	f
+huge_pg_id	memory.c	/^static uint32_t huge_pg_id;$/;"	v	file:
+id	virtio_type.h	/^	uint32_t id;$/;"	m	struct:vring_used_elem
+idx	virtio_type.h	/^	uint16_t idx;$/;"	m	struct:vring_avail
+idx	virtio_type.h	/^	volatile uint16_t idx;$/;"	m	struct:vring_used
+incl_len	pcap.c	/^	uint32_t incl_len;      \/* number of octets of packet saved in file *\/$/;"	m	struct:pcaprec_hdr_s	file:
+info	log.h	22;"	d
+init_mempool	pktgen.c	/^static struct mempool* init_mempool() {$/;"	f	file:
+ixy_read_stats	pktgen.c	/^static inline void ixy_read_stats(struct virtio_device *dev,$/;"	f	file:
+ixy_rx_batch	pcap.c	/^static inline uint32_t ixy_rx_batch(struct virtio_device* dev, uint16_t queue_id, struct pkt_buf* bufs[], uint32_t num_bufs) {$/;"	f	file:
+ixy_rx_batch_busy_wait	pktgen.c	/^static inline void ixy_rx_batch_busy_wait(struct virtio_device *dev, uint16_t qid,$/;"	f	file:
+ixy_tx_batch_busy_wait	pktgen.c	/^static inline void ixy_tx_batch_busy_wait(struct virtio_device *dev, uint16_t qid,$/;"	f	file:
+le32_to_cpu	mmio.h	26;"	d
+len	virtio_type.h	/^	uint32_t len;   \/* Length. *\/$/;"	m	struct:vring_desc
+len	virtio_type.h	/^	uint32_t len;$/;"	m	struct:vring_used_elem
+magic_number	pcap.c	/^	uint32_t magic_number;  \/* magic number *\/$/;"	m	struct:pcap_hdr_s	file:
+main	ioctl_test.c	/^int main(void) {$/;"	f
+memory_allocate_dma	memory.c	/^struct dma_memory memory_allocate_dma(size_t size, bool require_contiguous) {$/;"	f
+memory_allocate_mempool	memory.c	/^struct mempool* memory_allocate_mempool(uint32_t num_entries, uint32_t entry_size) {$/;"	f
+mempool	memory.h	/^	struct mempool* mempool;$/;"	m	struct:pkt_buf	typeref:struct:pkt_buf::mempool
+mempool	memory.h	/^struct mempool {$/;"	s
+mempool	virtio_type.h	/^	struct mempool* mempool; \/\/ Unused in Tx queues$/;"	m	struct:virtqueue	typeref:struct:virtqueue::mempool
+mempool_idx	memory.h	/^	uint32_t mempool_idx;$/;"	m	struct:pkt_buf
+mmio_addr	virtio.c	/^	void *mmio_addr;$/;"	m	struct:virtio_device	file:
+mmio_size	virtio.c	/^    uint64_t mmio_size;$/;"	m	struct:virtio_device	file:
+monotonic_time	stats.c	/^uint64_t monotonic_time() {$/;"	f
+net_hdr	virtio.c	/^static const struct virtio_legacy_net_hdr net_hdr = {$/;"	v	typeref:struct:virtio_legacy_net_hdr	file:
+network	pcap.c	/^	uint32_t network;       \/* data link type *\/$/;"	m	struct:pcap_hdr_s	file:
+next	virtio_type.h	/^	uint16_t next;  \/* We chain unused descriptors via this. *\/$/;"	m	struct:vring_desc
+num	virtio_type.h	/^	unsigned int num;$/;"	m	struct:vring
+num_entries	memory.h	/^	uint32_t num_entries;$/;"	m	struct:mempool
+num_rx_queues	virtio.c	/^    uint16_t num_rx_queues;$/;"	m	struct:virtio_device	file:
+num_tx_queues	virtio.c	/^    uint16_t num_tx_queues;$/;"	m	struct:virtio_device	file:
+open_driver	ioctl_test.c	/^int open_driver(const char* driver_name) {$/;"	f
+orig_len	pcap.c	/^	uint32_t orig_len;      \/* actual length of packet *\/$/;"	m	struct:pcaprec_hdr_s	file:
+pcap	pcap.c	/^int pcap(struct virtio_device* dev) {$/;"	f
+pcap_hdr_s	pcap.c	/^typedef struct pcap_hdr_s {$/;"	s	file:
+pcap_hdr_t	pcap.c	/^} pcap_hdr_t;$/;"	t	typeref:struct:pcap_hdr_s	file:
+pcaprec_hdr_s	pcap.c	/^typedef struct pcaprec_hdr_s {$/;"	s	file:
+pcaprec_hdr_t	pcap.c	/^} pcaprec_hdr_t;$/;"	t	typeref:struct:pcaprec_hdr_s	file:
+phy	memory.h	/^	uintptr_t phy;$/;"	m	struct:dma_memory
+pkt_buf	memory.h	/^struct pkt_buf {$/;"	s
+pkt_buf_alloc	memory.c	/^struct pkt_buf* pkt_buf_alloc(struct mempool* mempool) {$/;"	f
+pkt_buf_alloc_batch	memory.c	/^uint32_t pkt_buf_alloc_batch(struct mempool* mempool, struct pkt_buf* bufs[], uint32_t num_bufs) {$/;"	f
+pkt_buf_free	memory.c	/^void pkt_buf_free(struct pkt_buf* buf) {$/;"	f
+pkt_data	pktgen.c	/^static const uint8_t pkt_data[] = {$/;"	v	file:
+pktgen	pktgen.c	/^int pktgen(struct virtio_device* dev) {$/;"	f
+print_stats	stats.c	/^void print_stats(struct device_stats* stats) {$/;"	f
+print_stats_diff	stats.c	/^void print_stats_diff(struct device_stats* stats_new, struct device_stats* stats_old, uint64_t nanos) {$/;"	f
+read_stats	virtio.c	/^    void (*read_stats) (struct virtio_device *dev, struct device_stats *stat);$/;"	m	struct:virtio_device	file:
+readb	mmio.h	155;"	d
+readb_cpu	mmio.h	103;"	d
+readb_relaxed	mmio.h	130;"	d
+readl	mmio.h	157;"	d
+readl_cpu	mmio.h	105;"	d
+readl_relaxed	mmio.h	132;"	d
+readq	mmio.h	164;"	d
+readq_cpu	mmio.h	112;"	d
+readq_relaxed	mmio.h	139;"	d
+readw	mmio.h	156;"	d
+readw_cpu	mmio.h	104;"	d
+readw_relaxed	mmio.h	131;"	d
+remove_virtio_driver	ioctl_test.c	/^void remove_virtio_driver(const char *name) {$/;"	f
+ring	virtio_type.h	/^	struct vring_used_elem ring[0];$/;"	m	struct:vring_used	typeref:struct:vring_used::vring_used_elem
+ring	virtio_type.h	/^	uint16_t ring[0];$/;"	m	struct:vring_avail
+rx_batch	virtio.c	/^    uint32_t (*rx_batch) (struct virtio_device *dev, uint16_t qid,$/;"	m	struct:virtio_device	file:
+rx_bytes	stats.h	/^	size_t rx_bytes;$/;"	m	struct:device_stats
+rx_bytes	virtio.c	/^    uint64_t rx_bytes;$/;"	m	struct:virtio_device	file:
+rx_pkts	stats.h	/^	size_t rx_pkts;$/;"	m	struct:device_stats
+rx_pkts	virtio.c	/^    uint64_t rx_pkts;$/;"	m	struct:virtio_device	file:
+rx_queue	virtio.c	/^    void* rx_queue;$/;"	m	struct:virtio_device	file:
+set_promisc	virtio.c	/^    void (*set_promisc) (struct virtio_device *dev, bool enabled);$/;"	m	struct:virtio_device	file:
+sigfigs	pcap.c	/^	uint32_t sigfigs;       \/* accuracy of timestamps *\/$/;"	m	struct:pcap_hdr_s	file:
+size	memory.h	/^	uint32_t size;$/;"	m	struct:pkt_buf
+snaplen	pcap.c	/^	uint32_t snaplen;       \/* max length of captured packets, in octets *\/$/;"	m	struct:pcap_hdr_s	file:
+stats_init	stats.c	/^void stats_init(struct device_stats* stats, struct virtio_device* dev) {$/;"	f
+status	virtio_type.h	/^	virtio_net_ctrl_ack status;$/;"	m	struct:virtio_pmd_ctrl
+thiszone	pcap.c	/^	int32_t  thiszone;      \/* GMT to local correction *\/$/;"	m	struct:pcap_hdr_s	file:
+ts_sec	pcap.c	/^	uint32_t ts_sec;        \/* timestamp seconds *\/$/;"	m	struct:pcaprec_hdr_s	file:
+ts_usec	pcap.c	/^	uint32_t ts_usec;       \/* timestamp microseconds *\/$/;"	m	struct:pcaprec_hdr_s	file:
+tx_batch	virtio.c	/^    uint32_t (*tx_batch) (struct virtio_device *dev, uint16_t qid,$/;"	m	struct:virtio_device	file:
+tx_bytes	stats.h	/^	size_t tx_bytes;$/;"	m	struct:device_stats
+tx_bytes	virtio.c	/^	uint64_t tx_bytes;$/;"	m	struct:virtio_device	file:
+tx_pkts	stats.h	/^	size_t tx_pkts;$/;"	m	struct:device_stats
+tx_pkts	virtio.c	/^	uint64_t tx_pkts;$/;"	m	struct:virtio_device	file:
+tx_queue	virtio.c	/^	void* tx_queue;$/;"	m	struct:virtio_device	file:
+u16	mmio.h	/^typedef uint16_t u16;$/;"	t
+u32	mmio.h	/^typedef uint32_t u32;$/;"	t
+u64	mmio.h	/^typedef uint64_t u64;$/;"	t
+u8	mmio.h	/^typedef uint8_t u8;$/;"	t
+used	virtio_type.h	/^	struct vring_used* used;$/;"	m	struct:vring	typeref:struct:vring::vring_used
+version_major	pcap.c	/^	uint16_t version_major; \/* major version number *\/$/;"	m	struct:pcap_hdr_s	file:
+version_minor	pcap.c	/^	uint16_t version_minor; \/* minor version number *\/$/;"	m	struct:pcap_hdr_s	file:
+virt	memory.h	/^	void* virt;$/;"	m	struct:dma_memory
+virt_to_phys	memory.c	/^static uintptr_t virt_to_phys(void* virt) {$/;"	f	file:
+virtio_device	virtio.c	/^struct virtio_device {$/;"	s	file:
+virtio_get_link_speed	virtio.c	/^uint32_t virtio_get_link_speed(const struct virtio_device* dev) {$/;"	f
+virtio_init	virtio.c	/^struct virtio_device* virtio_init(const char* name,$/;"	f
+virtio_legacy_check_status	virtio.c	/^static void virtio_legacy_check_status(struct virtio_device *dev) {$/;"	f	file:
+virtio_legacy_init	virtio.c	/^static void virtio_legacy_init(struct virtio_device *dev) {$/;"	f	file:
+virtio_legacy_net_hdr	virtio_type.h	/^struct virtio_legacy_net_hdr {$/;"	s
+virtio_legacy_notify_queue	virtio.c	/^static inline void virtio_legacy_notify_queue(struct virtio_device* dev, uint16_t qid) {$/;"	f	file:
+virtio_legacy_send_command	virtio.c	/^static void virtio_legacy_send_command(struct virtio_device *dev,$/;"	f	file:
+virtio_legacy_set_promiscuous	virtio.c	/^static void virtio_legacy_set_promiscuous(struct virtio_device *dev, bool on) {$/;"	f	file:
+virtio_legacy_setup_queue	virtio.c	/^static void virtio_legacy_setup_queue(struct virtio_device *dev, uint16_t qid) {$/;"	f	file:
+virtio_legacy_vring_init	virtio.c	/^static inline void virtio_legacy_vring_init(struct vring *vr,$/;"	f	file:
+virtio_legacy_vring_size	virtio.c	/^static inline size_t virtio_legacy_vring_size(unsigned int num, unsigned long align) {$/;"	f	file:
+virtio_net_ctrl_ack	virtio_type.h	/^typedef uint8_t virtio_net_ctrl_ack;$/;"	t
+virtio_net_ctrl_hdr	virtio_type.h	/^struct virtio_net_ctrl_hdr {$/;"	s
+virtio_pmd_ctrl	virtio_type.h	/^struct virtio_pmd_ctrl {$/;"	s
+virtio_read_stats	virtio.c	/^void virtio_read_stats(struct virtio_device* dev, struct device_stats* stats) {$/;"	f
+virtio_rx_batch	virtio.c	/^uint32_t virtio_rx_batch(struct virtio_device* dev,$/;"	f
+virtio_set_promisc	virtio.c	/^void virtio_set_promisc(struct virtio_device* dev, bool enabled) {$/;"	f
+virtio_tx_batch	virtio.c	/^uint32_t virtio_tx_batch(struct virtio_device* dev,$/;"	f
+virtqueue	virtio_type.h	/^struct virtqueue {$/;"	s
+virtual_addresses	virtio_type.h	/^	void* virtual_addresses[];$/;"	m	struct:virtqueue
+vq_used_last_idx	virtio_type.h	/^	uint16_t vq_used_last_idx;$/;"	m	struct:virtqueue
+vring	virtio_type.h	/^	struct vring vring; \/\/ The DMA'd region containing the descriptors etc.$/;"	m	struct:virtqueue	typeref:struct:virtqueue::vring
+vring	virtio_type.h	/^struct vring {$/;"	s
+vring_avail	virtio_type.h	/^struct vring_avail {$/;"	s
+vring_avail_event	virtio_type.h	282;"	d
+vring_desc	virtio_type.h	/^struct vring_desc {$/;"	s
+vring_need_event	virtio_type.h	/^static inline int vring_need_event(uint16_t event_idx, uint16_t new_idx, uint16_t old) {$/;"	f
+vring_used	virtio_type.h	/^struct vring_used {$/;"	s
+vring_used_elem	virtio_type.h	/^struct vring_used_elem {$/;"	s
+vring_used_event	virtio_type.h	281;"	d
+warn	log.h	26;"	d
+writeb	mmio.h	159;"	d
+writeb_cpu	mmio.h	107;"	d
+writeb_relaxed	mmio.h	134;"	d
+writel	mmio.h	161;"	d
+writel_cpu	mmio.h	109;"	d
+writel_relaxed	mmio.h	136;"	d
+writeq	mmio.h	165;"	d
+writeq_cpu	mmio.h	113;"	d
+writeq_relaxed	mmio.h	140;"	d
+writew	mmio.h	160;"	d
+writew_cpu	mmio.h	108;"	d
+writew_relaxed	mmio.h	135;"	d
